@@ -190,16 +190,18 @@ th, td {
 
 .mapa {
     padding: 3em 0;
-    background: linear-gradient(#FEFEFE, #888888);}
-
-.mapa p {
-    margin: 0 0 2em;
-    text-align: center;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa-conteudo {
     width: 940px;
     margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
 }
 
 .beneficios {
@@ -224,6 +226,10 @@ th, td {
 
 .itens:first-child {
     font-weight: bold;
+}
+
+.itens:before {
+    content: "🟊";
 }
 
 .imagembeneficios {
